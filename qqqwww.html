@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        body {
+            font-family: "微软雅黑", Arial, sans-serif;
+            background-color: #ffffff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #3498db;
+            text-align: center;
+        }
+        p {
+            font-size: 16px;
+            text-align: justify;
+        }
+        img {
+            border-radius: 50%;
+            border: 3px solid #3498db;
+            display: block;
+            margin: 20px auto;
+            width: 150px;
+            height: 150px;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        #a{
+            color: #258bea;
+        }
+        #b{
+            color: #8aed35;
+        }
+        #c{
+            color: bisque;
+        }
+        #d{
+            color: lightskyblue;
+        }
+        a {
+            color: #8aed35;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .contact-table th, .contact-table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        .contact-table th {
+            background-color: #3498db;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>欢迎来到我的个人主页</h1>
+    <img src="b_5367777551f9d0ce25b0bee717c63924.jpg">
+    <p style="text-align: center">头像</p>
+    <p style="text-align: center">大家好！我叫向鑫宇，今年22岁，目前从事前端开发工作。我喜欢学习新技术，尤其是网页开发和设计。</p>
+
+    <h2 id="a">我的技能</h2>
+    <ul>
+        <li>HTML 和 CSS</li>
+        <li>JavaScript 基础</li>
+        <li>React.js</li>
+        <li>网页设计</li>
+    </ul>
+
+    <h2 id="c">常用网站</h2>
+    <ul>
+        <li><a href="https://www.baidu.com" target="_blank">百度</a></li>
+        <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+    </ul>
+
+    <h2 id="b">联系方式</h2>
+    <table class="contact-table">
+        <tr>
+            <th>方式</th>
+            <th>内容</th>
+        </tr>
+        <tr>
+            <td>邮箱</td>
+            <td>xiangxinyu@example.com</td>
+        </tr>
+        <tr>
+            <td>电话</td>
+            <td>123-4567-8910J</td>
+        </tr>
+    </table>
+
+    <h2 id="d">留言</h2>
+    <form>
+        <label for="name">你的名字：</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="message">留言内容：</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        <button type="submit">提交</button>
+    </form>
+</body>
+</html>
